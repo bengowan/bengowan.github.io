@@ -6,10 +6,20 @@
     <description>Recent content in Posts on min_night</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2 repos and git2r funs</title>
+      <link>/2020/05/27/2-repos-and-git2r-funs/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/27/2-repos-and-git2r-funs/</guid>
+      <description>Trying out these simple helper wraper funs for the 2 repo blogdown approach.
+library(git2r)copy_to_blog &amp;lt;- function(){file.copy(from = file.path(&amp;quot;public&amp;quot;, list.files(&amp;quot;public&amp;quot;)),to = &amp;quot;bengowan.github.io&amp;quot;,overwrite = TRUE, recursive = TRUE,)}push_to_blog &amp;lt;- function(m){repo &amp;lt;- repository(&amp;quot;bengowan.github.io&amp;quot;)add(repo, &amp;quot;-A&amp;quot;)commit(repo, message = m)push(repo)}</description>
+    </item>
     
     <item>
       <title>testing 2 repos</title>

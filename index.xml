@@ -6,7 +6,7 @@
     <description>Recent content on min_night</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -45,6 +45,15 @@
       
       <guid>/project/project4/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>auth switch</title>
+      <link>/2020/05/28/auth-switch/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/28/auth-switch/</guid>
+      <description>Switching from https to ssh for auth.</description>
     </item>
     
     <item>
